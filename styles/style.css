@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "Roboto";
+    height: 100vh;
+}
+
+.nav-image img{
+    width: 100vw;
+    height: 800px;
+}
+
+.nav-items{
+    display: flex;
+    padding: 15px;
+}
+
+.item-1{
+    margin-left: 150px;
+}
+
+.item-1 a ul{
+    display: flex;
+    margin-top: -800px;
+
+    
+}
+
+.item-1 a ul li{
+    margin-right: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight:500 ;
+    padding: 5px;
+}
+
+.active{
+    border-bottom: 1px solid aliceblue ;
+    
+}
+
+
+
+.item-1 li:hover{
+    border-bottom: 2px solid aliceblue;
+}
+
+.item-1 a{
+    text-decoration: none;
+}
+
+.item-2{
+    display: flex;
+    margin-top: -800px;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+.nav-btn button{
+    width: 100px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: rgb(38, 159, 225);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.sar-icon{
+    cursor: pointer;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nav-texts{
+    margin-top: -400px;
+    margin-left: 100px;
+}
+
+.nav-texts h2{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-texts h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 900;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.video-icon img{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 50px;
+    padding: 16px;
+}
+
+.video-text h2{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.des-video{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.main-head {
+    margin-top: 350px;
+    
+}
+
+.main-head h1{
+    margin-left: 800px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.main-head h2{
+    margin-left: 640px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #444;
+}
+
+.main-head h3{
+    margin-left: 800px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #444;
+}
+
+.icon-des-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+
+.first-sec h1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+.first-sec p{
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #444;
+}
+
+.are-you{
+    margin-top: 80px;
+    margin-left: 780px;
+}
+
+.are-you h1{
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+}
+
+.are-you a{
+    color: black;
+}
+
+.elephent{
+    margin-top: 100px;
+    
+}
+
+.both-img img{
+    width: 450px;
+}
+
+.ele{
+    margin-top: -100px;
+    margin-left: 150px;
+}
+
+.full-sec {
+    display: flex;
+}
+
+.ele-text{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.ele-text h1{
+    font-size: 20px;
+    font-weight: 600px;
+    
+}
+
+.ele-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.ele-text h3{
+    font-size: 20px;
+    font-weight: 600px;
+    color:rgb(183, 183, 68);
+    margin-top: 30px;
+}
+
+.ele-text p{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #444;
+    margin-top: 30px;
+}
+
+.ele-text button{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(38, 159, 225) ;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.top-foot{
+    margin-top: 200px;
+    
+}
+
+.top-foot img{
+    height: 250px;
+    width: 100vw;
+}
+
+.top-foot-text{
+    display: flex;
+    margin-top: -150px;
+    margin-left: 200px;
+}
+
+.top-title h1{
+    font-size: 50px;
+    font-weight: 500;
+   
+    color: rgb(255, 255, 255);
+}
+
+.top-foot-btn button{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(38, 159, 225) ;
+    color: aliceblue;
+    margin-left: 600px;
+    margin-top: 40px;
+    
+}
+
+.main-foot{
+    background-color: rgb(25, 22, 22);
+    height: 650px;
+}
+
+.full-text-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.first-one h1{
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+.second-two {
+    margin-top: 100px;
+}
+
+.second-two h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.second-two h2{
+    font-weight: 600;
+    font-size: 16px;
+    color: aliceblue;
+    
+}
+
+.second-two p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.second-two a{
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid aliceblue;
+    
+}
+
+.thrid-three{
+    margin-top: 100px;
+}
+
+.thrid-three h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: aliceblue;
+    
+}
+
+.thrid-three h2{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.fourth-four{
+    margin-top: 100px;
+    
+}
+
+.fourth-four h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.fourth-four input{
+    margin-top: 40px;
+    width: 300px;
+    border: none;
+    height: 50px;
+    padding: 10px;
+}
+
+.horizen hr{
+    margin-top: 200px;
+}
+
+.last-text-grp{
+    display: flex;
+    margin-top: 40px;
+}
+
+.text-one h1{
+    color: #888;
+    
+}
+
+.text-two{
+    margin-left: auto;
+    
+}
+
+.text-two ul{
+    display: flex;
+}
+
+.text-two ul li{
+    color: #888;
+   margin-left: 30px;
+
+}
+
+.img-sec {
+    margin-top: 30px;
+}
+
+.img-sec img {
+    margin-right: 30px;
+    border:1px solid aliceblue;
+    border-radius:50%;
+    padding: 5px;
+}
+
